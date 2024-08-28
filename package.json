@@ -1,0 +1,47 @@
+{
+  "name": "daling-online-web-backend",
+  "version": "0.1.2",
+  "description": "DalingOnlineWeb 动漫网站后端",
+  "main": "src/app.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "npx tsc && cd build/src && node app.js",
+    "build": "npx tsc"
+  },
+  "author": "HaiPaya <haipaya@aliyun.com>",
+  "bugs": "https://github.com/PayaHai/daling-backend/issues",
+  "homepage": "https://github.com/PayaHai/daling-backend",
+  "license": "GPL-3.0",
+  "repository": "github:PayaHai/daling-backend",
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "axios": "^1.7.2",
+    "fs": "^0.0.1-security",
+    "hasha": "^6.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "koa": "^2.15.3",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^12.0.1",
+    "koa-useragent": "^4.1.0",
+    "mongodb": "^6.8.0",
+    "mysql2": "^3.10.2",
+    "nodemailer": "^6.9.14",
+    "redis": "^4.6.15",
+    "thread-pool": "^0.0.1",
+    "uuid": "^10.0.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/express-useragent": "^1.0.5",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/koa__cors": "^5.0.0",
+    "@types/koa-bodyparser": "^4.3.12",
+    "@types/koa-router": "^7.4.8",
+    "@types/koa-useragent": "^1.2.0",
+    "@types/node": "^20.14.12",
+    "@types/nodemailer": "^6.4.15",
+    "@types/redis": "^4.0.10",
+    "@types/uuid": "^10.0.0",
+    "@types/ws": "^8.5.12"
+  }
+}
